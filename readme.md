@@ -108,5 +108,10 @@ The Rails 3 generators are located under **lib/generators** and are tested with 
 
 ## Credits
 
-This is just a modified version of [Ryan Bates](https://github.com/ryanb) original [nifty-generatios](https://github.com/ryanb/nifty-generators)
+This is just a modified version of [Ryan Bates](https://github.com/ryanb) original [nifty-generators](https://github.com/ryanb/nifty-generators)
 
+## Licence
+
+Copyright (c) 2011 Jose Pablo Barrantes
+
+See [LICENSE](https://github.com/jpablobr/niftier-generators/blob/master/LICENSE)
