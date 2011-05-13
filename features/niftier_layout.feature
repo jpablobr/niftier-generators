@@ -1,4 +1,4 @@
-Feature: Nifty Layout Generator
+Feature: Niftier Layout Generator
   In order to have a layout
   As a rails developer
   I want to generate a simple layout

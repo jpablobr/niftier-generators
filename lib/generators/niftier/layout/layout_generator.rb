@@ -1,6 +1,6 @@
 require 'generators/niftier'
 
-module Nifty
+module Niftier
   module Generators
     class LayoutGenerator < Base
       argument :layout_name, :type => :string, :default => 'application', :banner => 'layout_name'

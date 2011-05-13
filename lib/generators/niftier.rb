@@ -1,6 +1,6 @@
 require 'rails/generators/base'
 
-module Nifty
+module Niftier
   module Generators
     class Base < Rails::Generators::Base #:nodoc:
       def self.source_root

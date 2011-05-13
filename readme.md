@@ -33,6 +33,7 @@ Note an underscore is used instead of a colon for the Rails 2 generators.
 * niftier:scaffold: generates a controller and optional model/migration.
 * niftier:config: generates a config YAML file and loader.
 * niftier:authentication: generates user model with sign up and log in.
+* niftier:setup: generates misc files such as .rvmrc, gitignore, rake tasks, etc...
 
 To view the README for each generator, run it with the +help+ option.
 
@@ -96,7 +97,7 @@ Also, make sure you're using Rails 2.1 or greater.
 
 ## Found a bug?
 
-If you are having a problem with Nifty Generators, first look at the FAQs above. If you still cannot resolve it, please submit an issue here.
+If you are having a problem with Niftier Generators, first look at the FAQs above. If you still cannot resolve it, please submit an issue here.
 
 http://github.com/ryanb/niftier-generators/issues
 

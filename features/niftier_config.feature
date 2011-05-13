@@ -1,4 +1,4 @@
-Feature: Nifty Config Generator
+Feature: Niftier Config Generator
   In order to have configure an app
   As a rails developer
   I want to generate a config file and manager

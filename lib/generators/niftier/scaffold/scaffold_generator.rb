@@ -2,7 +2,7 @@ require 'generators/niftier'
 require 'rails/generators/migration'
 require 'rails/generators/generated_attribute'
 
-module Nifty
+module Niftier
   module Generators
     class ScaffoldGenerator < Base
       include Rails::Generators::Migration

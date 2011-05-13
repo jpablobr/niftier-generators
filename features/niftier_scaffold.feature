@@ -1,4 +1,4 @@
-Feature: Nifty Scaffold Generator
+Feature: Niftier Scaffold Generator
   In order to manage a resource
   As a rails developer
   I want to generate a model, controller, and views for that resource

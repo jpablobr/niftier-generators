@@ -1,6 +1,6 @@
 require 'generators/niftier'
 
-module Nifty
+module Niftier
   module Generators
     class ConfigGenerator < Base
       argument :config_name, :type => :string, :default => 'app', :banner => 'config_name'

@@ -1,7 +1,7 @@
 require File.join(File.dirname(__FILE__), "test_helper.rb")
 
-class TestNiftyConfigGenerator < Test::Unit::TestCase
-  include NiftyGenerators::TestHelper
+class TestNiftierConfigGenerator < Test::Unit::TestCase
+  include NiftierGenerators::TestHelper
 
   # Some generator-related assertions:
   #   assert_generated_file(name, &block) # block passed the file contents

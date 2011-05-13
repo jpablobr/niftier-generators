@@ -1,4 +1,4 @@
-Feature: Nifty Authentication Generator
+Feature: Niftier Authentication Generator
   In order to authenticate users
   As a rails developer
   I want to generate some user authentication

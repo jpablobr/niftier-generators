@@ -1,7 +1,7 @@
 require 'generators/niftier'
 require 'rails/generators/migration'
 
-module Nifty
+module Niftier
   module Generators
     class AuthenticationGenerator < Base
       include Rails::Generators::Migration
