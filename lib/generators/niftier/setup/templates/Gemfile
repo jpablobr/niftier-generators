@@ -12,6 +12,7 @@ group :development, :test do
   gem 'railroady'
   gem 'rdoc'
   gem 'ZenTest'
+  gem "niftier-generators", :git => 'git://github.com/jpablobr/niftier-generators.git'
   gem 'autotest-rails', '4.1.0'
   gem 'rr', '1.0.2'
   gem 'factory_girl_rails', '1.0'
