@@ -1,1 +1,1 @@
-rvm use 1.9.2@nifty-generators --create
+rvm use 1.9.2-p180@niftier-generators --create
