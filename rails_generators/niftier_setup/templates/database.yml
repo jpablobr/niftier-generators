@@ -11,12 +11,13 @@
 login: &login
   adapter: postgresql
   encoding: unicode
-  username: postgres
-  password: postgres
+  # username: postgres
+  # password: postgres
   pool: 5
-  
+  host: 127.0.0.1
+
 development: &development
-  database: your_local_database
+  database: <%= file_name %>_database
   <<: *login
 
   # Connect on a TCP socket. Omitted by default since the client uses a
@@ -38,20 +39,20 @@ development: &development
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
 test: &test
-  database: your_test_database
+  database: <%= file_name %>_database
   <<: *login
 
 # Warning: The database defined as "cucumber" will be erased and
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
 cucumber: &cucumber
-  database: your_cucumber_database
+  database: <%= file_name %>_database
   <<: *login
 
 production: &production
   adapter: postgresql
   encoding: unicode
   pool: 5
-  database: your_production_database
-  username: your_production_database_login
-  password: your_production_database_password
+  database: <%= file_name %>_database
+  username: <%= file_name %>_database_login
+  password: <%= file_name %>_database_password
