@@ -9,24 +9,26 @@ gem "html5-boilerplate"
 group :development, :test do
   gem 'ruby-debug19', :require => 'ruby-debug'
   gem 'rack-debug', :require => "rack/debug"
-  gem 'railroady'
-  gem 'rdoc'
-  gem 'ZenTest'
-  gem "niftier-generators", :git => 'git://github.com/jpablobr/niftier-generators.git'
+  ### test
+  gem 'spork'
+  gem 'database_cleaner'
+  gem 'rspec-rails', '~> 2.5.0'
   gem 'autotest-rails', '4.1.0'
   gem 'rr', '1.0.2'
   gem 'factory_girl_rails', '1.0'
   gem 'email_spec', '1.0.0'
   gem 'webmock', '1.6.1', :require => false
-  gem 'rails3-generators', '0.14.0'
-  gem 'rcov', '0.9.9'
-  gem 'heroku'
-  gem 'spork'
-  gem 'database_cleaner'
-  gem 'rspec-rails', '~> 2.5.0'
+  gem 'ZenTest'
   ### console
   gem 'awesome_print'
   gem 'wirble'
+  ### misc
+  gem 'rcov', '0.9.9'
+  gem 'heroku'
+  gem 'rails3-generators', '0.14.0'
+  gem 'railroady'
+  gem 'rdoc'
+  gem "niftier-generators", :git => 'git://github.com/jpablobr/niftier-generators.git'
 end
 
 # gem 'taps'

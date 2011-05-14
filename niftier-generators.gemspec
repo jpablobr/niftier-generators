@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.summary     = "A collection of useful Rails generator scripts."
   s.description = "A collection of useful Rails generator scripts for scaffolding, layout files, authentication, and more."
 
-  s.files        = Dir["{lib,test,features,rails_generators}/**/*", "[A-Z]*"]
+  s.files        = Dir["{lib,test,rails_generators}/**/*", "[A-Z]*"]
   s.require_path = "lib"
 
   s.add_development_dependency 'rspec-rails', '~> 2.0.1'
