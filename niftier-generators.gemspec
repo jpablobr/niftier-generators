@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = "niftier-generators"
-  s.version     = "0.4.6"
+  s.version     = "0.4.7"
   s.author      = "Jose Pablo Barrantes (based on Ryan Bates niftier-generators)"
   s.email       = "xjpablobrx@gmail.com"
   s.homepage    = "http://github.com/jpablobr/niftier-generators"

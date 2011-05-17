@@ -31,7 +31,6 @@ Note an underscore is used instead of a colon for the Rails 2 generators.
 
 * niftier:layout: generates generic layout, stylesheet, and helper files.
 * niftier:scaffold: generates a controller and optional model/migration.
-* niftier:config: generates a config YAML file and loader.
 * niftier:authentication: generates user model with sign up and log in.
 * niftier:setup: generates misc files such as .rvmrc, gitignore, rake tasks, etc...
 

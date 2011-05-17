@@ -1,3 +1,7 @@
+0.4.7 (May 17, 2011)
+
+* Removed config generator
+
 0.4.6 (March 26, 2011)
 
 * fixing form block in HAML (thanks apocalyptiq)
