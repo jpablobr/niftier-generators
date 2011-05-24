@@ -10,7 +10,6 @@ class NiftierSetupGenerator < Rails::Generator::Base
       m.file "autotest.rb", "autotest/autotest.rb"
       m.file "compass.rb", "config/compass.rb"
       m.file "discover.rb", "autotest/discover.rb"
-      m.file "Gemfile", "Gemfile"
       m.file ".gitignore", ".gitignore"
       m.file "staging.rb", "config/environments/staging.rb"
       m.file "development.rb", "config/environments/development.rb"

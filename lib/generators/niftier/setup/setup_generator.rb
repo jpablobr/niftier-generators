@@ -10,7 +10,6 @@ module Niftier
         copy_file "compass.rb", "config/compass.rb"
         copy_file "development.rb", "config/environments/development.rb"
         copy_file "discover.rb", "autotest/discover.rb"
-        copy_file "Gemfile", "Gemfile"
         copy_file ".gitignore", ".gitignore"
         copy_file "production.rb", "config/environments/production.rb"
         copy_file "rcov.opts", "spec/rcov.opts"
